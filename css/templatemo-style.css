@@ -250,11 +250,12 @@ p {
 
 
 #about {
-	padding: 150px 0px;
-	background-image: url(../img/about-background.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+	padding: 150px 150px;
+	background-image: url(../img/caratula.png), url(../img/deva_about.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-size: 50%,50%;
+	background-attachment: fixed,fixed;
+	background-position: left,right;
 }
 
 #about .service-item {
